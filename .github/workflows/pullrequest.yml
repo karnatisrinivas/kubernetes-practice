@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - newbranch
-      - main
 
 jobs:
   create-pull-request:
