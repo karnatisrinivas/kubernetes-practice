@@ -6,7 +6,7 @@ metadata:
     app: myapp
 spec:
   selector:
-    matchLabels: 
+    matchLabels:
       app: myapp
   template:
     metadata:
@@ -14,9 +14,8 @@ spec:
         app: myapp
     spec:
       containers:
-        - name: catgif 
+        - name: catgif
           image: prakhar1989/catnip
+          ports:
+            - containerPort: 5000
   replicas: 1
-
-
-    
